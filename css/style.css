@@ -450,6 +450,51 @@ font-weight: 400;
     font-size: 16px;
     line-height: 30px;
 }
+.bbp-bgsec.your-wibe-section{
+    padding: 90px 50px 80px;
+}
+.no-top-margin{
+    margin-top: 0px;
+}
+.page-title-image.zumba-girl{
+    
+}
+.service-detail-text p{
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 300;
+}
+.page-title-section{
+    padding: 40px 0px;
+}
+.service-detail-text{
+    position: relative;
+}
+.zumba-girl{
+    position: absolute;
+    top: -250px;
+    right: 10%;
+}
+.zumba-girl img{
+    width: 200px;
+}
+.why-choose-section h4{
+    font-weight: 300;
+}
+.secOurClasses.why-choose-section-white{
+    background-color: #ffffff;
+}
+.secOurClasses.why-choose-section-mgenta{
+    background-color: #7D243A;
+    text-align: center;
+    padding: 60px 220px 145px;
+}
+.secOurClasses.why-choose-section-mgenta p{
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 300;
+}
 @media only screen and (max-width:1400px){
 
     .secbtnhero a{
