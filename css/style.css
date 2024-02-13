@@ -100,7 +100,7 @@ body{
 
 .secOurClasses {
     background: #F7AE85;
-    padding: 50px 10px;
+    padding: 60px 10px;
 }
 
 .secOurClassestext {
@@ -139,6 +139,11 @@ body{
     font-size: 16px !important;
     font-style: normal;
     text-align: center !important;
+    word-wrap: break-word;
+}
+
+.our-classes-text{
+    padding: 0px 40px;
 }
 
 ul#ex1 {
@@ -274,7 +279,7 @@ text-decoration-line: underline;
 }
 .secfree{
     background: #FFE6D8;
-    padding: 50px 20px;
+    padding: 80px 20px;
     text-align: center;
     margin-top: 120px;
 }
@@ -345,7 +350,7 @@ text-decoration-line: underline;
 }
 .sec-footerbg{
     background: #4A312B;
-    padding: 40px 10px;
+    padding: 80px 10px 40px;
 }
 .footercolum{
     display: flex;
@@ -471,6 +476,14 @@ font-weight: 400;
 .service-detail-text{
     position: relative;
 }
+.about-girl{
+    position: absolute;
+    top: -194px;
+    right: 10%;
+}
+.about-girl img{
+    width: 565px;
+}
 .zumba-girl{
     position: absolute;
     top: -250px;
@@ -494,6 +507,49 @@ font-weight: 400;
     font-size: 20px;
     color: #ffffff;
     font-weight: 300;
+}
+.why-choose-text{
+    margin-bottom: 30px;
+}
+.why-choose-text-wraper{
+    padding-left: 40px;
+}
+.section-title{
+    margin: 0px 0px 60px;
+}
+.section-title p{
+    font-size: 16px;
+    line-height: 30px;
+}
+.section-title h2{
+    margin-bottom: 20px;
+}
+.section-title a{
+    color: #7D243A;
+    text-decoration: underline;
+}
+.spacetop80{
+    margin-top: 80px;
+}
+.padding-30{
+    padding: 0px 30px;
+}
+.why-choose-section.mission-section{
+    background-color: #7D243A;
+    background-image: url(../images/Mission-bg.png);
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+.why-choose-section.mission-section .why-choose-text{
+    margin: 0px;
+}
+.why-choose-section.mission-section .why-choose-text p{
+    color: #ffffff;
+    text-align: center;
+    line-height: 32px;
+    width: 80%;
+    margin: auto;
 }
 @media only screen and (max-width:1400px){
 
