@@ -484,6 +484,14 @@ font-weight: 400;
 .about-girl img{
     width: 565px;
 }
+.nutrition-girl{
+    position: absolute;
+    top: -270px;
+    right: 10%;
+}
+.nutrition-girl img{
+    width: 289px;
+}
 .zumba-girl{
     position: absolute;
     top: -250px;
@@ -555,6 +563,138 @@ font-weight: 400;
     margin-top: 10px;
     font-size: 15px;
     padding: 0px 20px;
+}
+.meet-our-trainers-section {
+    padding: 0px 60px;
+    margin-bottom: 80px;
+}
+.bbp-bgsec.service-detail-text{
+    padding: 20px;
+}
+.bbp-bgsec.service-detail-text p{
+    margin-bottom: 0px !important;
+}
+.blog-section-one{
+    padding-top: 60px;
+}
+.blog-sidebar-row h3{
+   color: #F7AE85;
+   font-size: 15px;
+   margin-bottom: 10px;
+}
+.blog-sidebar-row p{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.blog-sidebar-row a{
+    font-size: 14px;
+    color: #782435;
+    text-decoration: underline;
+}
+.blog-sidebar-row{
+    display: flex;
+    margin-bottom: 20px;
+}
+.blog-sidebar-thumb{
+    width: 40%;
+}
+.blog-sidebar-text{
+    width: 60%;
+    padding-left: 20px;
+}
+.blog-box h3{
+    color: #F7AE85;
+    font-size: 18px;
+}
+.blog-box h2{
+    font-size: 30px;
+    color: #000000;
+}
+.blogimg{
+    margin-bottom: 20px;
+}
+.blog-section-one{
+    margin-bottom: 80px !important;
+}
+.hero-bg.blog-bg{
+    background-image: url(../images/blog-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.blog-description p{
+    font-size: 18px;
+    line-height: 30px;
+}
+.blog-social ul li{
+    list-style: none;
+    color: #000000;
+    font-weight: 700;
+}
+.blog-social ul li.social-btn a i{
+    color: #000000;
+}
+.share-t{
+    margin-right: 20px;
+    font-size: 20px;
+}
+.page-title-section .page-title{
+    border-bottom: 1px solid #C6C6C6;
+    margin-bottom: 20px;
+}
+.blog-detail-bg.greybg{
+    background-color: #FAF9F5;
+}
+.get-in-touch-box{
+    background-color: #333A45;
+    padding: 60px 30px;
+}
+.get-in-title h3{
+    color: #F7AE85;
+}
+.get-in-title p{
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 24px;
+}
+.infobox-text h6{
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+}
+.infobox{
+    display: flex;
+}
+.infobox-text p{
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 24px;
+}
+.infobox-text .badge{
+    background-color: #7D243A;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 100px;
+    padding: 5px 20px;
+}
+.infobox-text{
+    margin-left: 20px;
+}
+.get-in-title{
+    margin-bottom: 30px;
+}
+.phoneno{
+    color: #ffffff;
+    font-size: 22px;
+    text-decoration: none;
+}
+.form-style{
+    background-color: #FFE6D8;
+    padding: 30px;
+}
+.iframe-wrapper iframe{
+    width: 100%;
+    height: 500px;
 }
 @media only screen and (max-width:1400px){
 
