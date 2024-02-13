@@ -551,6 +551,11 @@ font-weight: 400;
     width: 80%;
     margin: auto;
 }
+.item h6{
+    margin-top: 10px;
+    font-size: 15px;
+    padding: 0px 20px;
+}
 @media only screen and (max-width:1400px){
 
     .secbtnhero a{
