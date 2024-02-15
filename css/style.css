@@ -936,9 +936,19 @@ font-weight: 400;
    .nutrition-girl{
     display: none;
    }
+   .page-title h3 {
+        font-size: 30px;
+    }
+    .page-title p {
+        font-size: 18px;
+    }
 }
 @media only screen and (max-width:575px){
 
+    .page-title h3 {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
     .form-style{
         padding: 30px 20px;
     }
