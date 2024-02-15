@@ -355,6 +355,7 @@ text-decoration-line: underline;
 .footercolum{
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 .allcolums1 h4{
     color: #FFF;
@@ -461,8 +462,12 @@ font-weight: 400;
 .no-top-margin{
     margin-top: 0px;
 }
-.page-title-image.zumba-girl{
-    
+.container-fluid.bbp-bgsec.service-detail-text.all-articles-title{
+    padding: 30px 20px;
+}
+.blog-sidebar-row{
+    text-decoration: none;
+    display: block;
 }
 .service-detail-text p{
     color: #ffffff;
@@ -603,6 +608,10 @@ font-weight: 400;
     width: 60%;
     padding-left: 20px;
 }
+.blog-box{
+    text-decoration: none;
+    display: block;
+}
 .blog-box h3{
     color: #F7AE85;
     font-size: 18px;
@@ -638,7 +647,7 @@ font-weight: 400;
     margin-right: 20px;
     font-size: 20px;
 }
-.page-title-section .page-title{
+.blog-bg .page-title-section .page-title{
     border-bottom: 1px solid #C6C6C6;
     margin-bottom: 20px;
 }
@@ -697,9 +706,333 @@ font-weight: 400;
     width: 100%;
     height: 500px;
 }
+.form-style h3{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.form-style .form-control{
+    background-color: transparent;
+    border-radius: 0px;
+    border: 0px;
+    border-bottom: 1px solid ;
+    padding: 0px;
+}
+.form-style input[type="text"],.form-style input[type="email"]{
+    height: 60px;
+}
+.form-style .form-floating>label{
+    padding: 0px !important;
+}
+.form-control:focus{
+    box-shadow: none;
+}
+.textarea-wrapper{
+    margin-top: 30px;
+}
+.form-style .btn.btn-primary{
+    background-color: #7D243A;
+    border: 0px;
+    border-radius: 0px;
+    padding: 18px 50px;
+    margin-top: 50px !important;
+}
+.nav-link:focus, .nav-link:hover{
+    color: #7D243A;
+}
+.navbar-toggler{
+    background-color: #7D243A !important;
+}
+.offcanvas-header{
+    background-color: #000000;
+}
+.container-fluid.sec-footerbg .social-menu{
+    margin-top: 20px;
+}
 @media only screen and (max-width:1400px){
 
     .secbtnhero a{
         font-size: 16px;
+    }
+}
+@media only screen and (max-width:1199px){
+
+    .container-fluid.align-items-start{
+        align-items: center !important;
+    }
+    .headermenusec{
+        padding: 5px 0px !important;
+    }
+    .offcanvas-body .socal-links{
+        margin-top: 20px;
+    }
+    .secbtnhero a{
+        padding: 15px 20px;
+    }
+    .nav-link.tabsec{
+        padding: 5px 5px;
+    }
+    .tabimagestext p{
+        width: 100%;
+    }
+    .footercolum .allcolums{
+        margin-top: 30px;
+    }
+}
+@media only screen and (max-width:991px){
+
+    .get-in-touch-box{
+        margin-bottom: 50px;
+    }
+    .container-fluid.secOurClasses .owl-dots{
+        display: none;
+    }
+    .container-fluid.secOurClasses .row.m-0.py-5{
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+    }
+    .nav-link.tabsec{
+        font-size: 15px !important;
+    }
+    .tabimagestext p{
+        margin-top: 20px;
+    }
+    .meetbg-sec .owl-dots{
+        display: none;
+    }
+    .meetbg-sec .tabimagestext{
+        margin-top: 30px;
+    }
+    .why-pilates-section{
+        padding-top: 0px !important;
+    }
+    .why-pilates-section .secbbpad{
+        padding-left: 0px;
+        margin-top: 30px;
+    }
+    .secfree{
+        margin-top: 0px;
+    }
+    .sec-workout{
+        margin-top: 30px;
+    }
+    .container-fluid.secfree .secbtnhero2{
+        margin-top: 40px;
+    }
+    .sectestimonialsp{
+        width: 100%;
+    }
+    .allcolums2{
+        padding: 0px 10px;
+    }
+    .your-wibe-section .col-lg-3.col-md-6{
+        margin-top: 30px;
+    }
+    .secOurClasses.why-choose-section-mgenta{
+        padding: 60px 20px 60px;
+    }
+    .secOurClasses.why-choose-section-mgenta p{
+        margin-bottom: 0px;
+    }
+    .secOurClasses.why-choose-section-mgenta .why-choose-text{
+        margin-bottom: 0px;
+    }
+    .about-girl img {
+        width: 390px;
+    }
+    .about-girl {
+        top: 10px;
+    }
+}
+@media only screen and (max-width:767px){
+
+    .top-left-blog{
+        margin-bottom: 60px;
+    }
+    .bottom-blog-box{
+        margin-bottom: 60px;
+    }
+    .blog-box h2{
+        font-size: 25px;
+    }
+    .meet-our-trainers-section{
+        margin-bottom: 40px;
+    }
+    .why-choose-section.mission-section .why-choose-text p{
+        width: 100%;
+    }
+    .section-title p br{
+        display: none;
+    }
+    .meet-our-trainers-section .padding-30{
+        padding: 0px;
+        margin-top: 20px;
+    }
+    .movesec{
+        margin-top: 40px;
+        margin-bottom: 0px;
+    }
+    .bbp-bgsec p{
+        font-size: 25px;
+        text-align: center;
+    }
+    .secOurClasses .nav-link.tabsec{
+        font-size: 18px !important;
+    }
+    .secOurClasses .owl-nav{
+        text-align: center;
+    }
+    .secOurClasses .owl-nav .owl-prev,.secOurClasses .owl-nav .owl-next{
+        font-size: 22px !important;
+        margin: 0px 5px;
+    }
+    .meetbg-sec .owl-nav .owl-prev,.meetbg-sec .owl-nav .owl-next{
+        font-size: 22px !important;
+        margin: 0px 5px;
+    }
+    .meetbg-sec .owl-nav{
+        text-align: center;
+    }
+    .everpsec br{
+        display: none;
+    }
+    .why-pilates-section .secbbpad{
+        text-align: center;
+    }
+    .secfree{
+        padding: 50px 20px;
+    }
+    .bbp-bgsec.your-wibe-section {
+        padding: 40px 20px 60px;
+    }
+    .bbp-bgsec.your-wibe-section p{
+        font-size: 17px;
+        text-align: left;
+    }
+    .your-wibe-section h3{
+        font-size: 35px;
+    }
+    .why-choose-text-wraper{
+        padding-left: 0px;
+    }
+    .zumba-girl.text-center{
+        display: none;
+    }
+    .container-fluid.bbp-bgsec.service-detail-text p{
+        font-size: 20px;
+    }
+    .why-choose-text-wraper{
+        margin-top: 20px;
+    }
+    .about-girl{
+        display: none;
+    }
+    .meet-our-trainers-section {
+        padding: 0px 10px;
+    }
+   .container-fluid.secOurClasses.why-choose-section{
+        padding-bottom: 30px;
+   }
+   .nutrition-girl{
+    display: none;
+   }
+}
+@media only screen and (max-width:575px){
+
+    .form-style{
+        padding: 30px 20px;
+    }
+    .infobox i{
+        display: none;
+    }
+    .infobox-text {
+        margin-left: 0px;
+    }
+    .get-in-touch-box{
+        padding: 50px 20px;
+    }
+    .iframe-wrapper iframe {
+        width: 100%;
+        height: 400px;
+    }
+    .sec-footerbg{
+        padding-top: 60px;
+    }
+    .container-fluid.bbp-bgsec.service-detail-text p {
+        font-size: 18px;
+        line-height: 32px;
+    }
+    .your-wibe-section h3{
+        font-size: 30px;
+    }
+    .your-wibe-section h4{
+        font-size: 26px;
+    }
+    a.navbar-brand {
+        width: 100px !important;
+    }
+    .hero-bg h2, .hero-bg h3{
+        font-size: 30px;
+    }
+    .bbp-bgsec{
+        padding: 50px 20px;
+        font-size: 22px;
+    }
+    .bbp-bgsec p {
+        font-size: 23px;
+    }
+    .secOurClasses{
+        text-align: center;
+    }
+    .secOurClassestext{
+        font-size: 26px;
+        text-align: center;
+    }
+    .meettabtext{
+        text-align: center !important;
+        font-size: 16px;
+        margin: 0px;
+    }
+    .meetbg-sec .tabimagestext{
+        text-align: center;
+    }
+    .secbtnhero2 a{
+        display: block;
+        font-size: 16px;
+        padding: 10px;
+    }
+    .tab-content .secbtnhero2{
+        padding-bottom: 0px;
+    }
+    .evbbtn.text-center .secbtnhero2{
+        padding: 0px;
+    }
+    .why-pilates-section .row.m-0.py-4{
+        padding-bottom: 0px !important;
+    }
+    .footercolum{
+        flex-direction: column;
+    }
+    .footercolum .allcolums1{
+        padding-left: 8px;
+    }
+    .allcolums1 p br{
+        display: none;
+    }
+    .allcolums1 p{
+        font-size: 16px;
+    }
+    .allcolums2 p{
+        margin-bottom: 7px;
+    }
+    .allcolums2 h4{
+        margin-bottom: 0px;
+        padding-bottom: 20px;
+    }
+    .allcolums2{
+        margin-bottom: 30px;
+    }
+    .bbp-bgsec.service-detail-text {
+        padding: 40px 10px;
     }
 }

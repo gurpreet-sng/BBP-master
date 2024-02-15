@@ -45,10 +45,6 @@ a.navbar-brand {
   .founder-bg h1 {
     font-size: 280px;
   }
-  a.navbar-brand {
-    width: 25% !important;
-    flex-shrink: 0;
-}
 .sec-logo-img {
   min-width: 43% !important;
   max-width: none !important;
@@ -124,12 +120,7 @@ a.nav-link.px-4.text-light , a.nav-link.dropdown-toggle.text-light{
 .sec-hright , .sec-hright2 , .sec-hright3 , .sec-hright3p {
   height: auto;
 }
-  .container-fluid.sec-menu-bgg {
-    background: rgb(9,9,9);
-}
-.hero-bg h2 , .hero-bg h3{
-  font-size: 55px;
-}
+
 .train-bg h1{
   font-size: 30px;
   padding-top: 0px;
@@ -202,13 +193,13 @@ a.nav-link.px-4.text-light , a.nav-link.dropdown-toggle.text-light{
   font-size: 11px;
   border-radius: 0px !important;
 }
+/*
 .hero-bg , .hero-bg2 , .hero-bg2-1 , .hero-bg2-2 , .hero-bg2-3 , .hero-bg2-4 , .hero-bg2-5 , .hero-bg2-6 , .hero-bg2-7{
   padding: 190px 11px 85px 18px;
   margin-top: -160px;
-}
-a.navbar-brand {
-  width: 66% !important;
-}
+}*/
+
+
 
 button.navbar-toggler {
   background: #ffff;
